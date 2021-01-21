@@ -1,0 +1,6 @@
+.header {
+  display: grid;
+  width: 100%;
+  grid-column: 2 / 12;
+  height: 50px;
+}

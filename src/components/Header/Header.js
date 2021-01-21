@@ -1,6 +1,6 @@
 import { Logo } from "./Logo/Logo";
 import { Navbar } from "./Navbar/Navbar";
-import "./style.css";
+import "./header.css";
 export const Header = () => {
   return (
     <div className="header">

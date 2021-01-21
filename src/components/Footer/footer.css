@@ -1,0 +1,11 @@
+.footer {
+  display: grid;
+  grid-row: 9;
+  grid-column: 2/12;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}

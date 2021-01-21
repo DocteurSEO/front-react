@@ -1,3 +1,4 @@
+import "./button.css";
 export const Button = ({ text, style }) => {
   return (
     <button className="button" style={style}>
