@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./button.css";
 export const Button = ({ text, style }) => {
   return (
@@ -9,4 +10,8 @@ export const Button = ({ text, style }) => {
 Button.defaultProps = {
   text: "",
   style: {},
+};
+Button.propTypes = {
+  title: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.string),
 };

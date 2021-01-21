@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 export const Title = ({ text, style }) => {
   return (
     <h1 className="title" style={style}>
@@ -9,4 +10,9 @@ export const Title = ({ text, style }) => {
 Title.defaultProps = {
   text: "",
   style: {},
+};
+
+Title.propTypes = {
+  title: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.string),
 };

@@ -5,19 +5,19 @@ export const Navbar = () => {
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="active">
-          <a href="#">Home</a>
+          <a>Home</a>
         </li>
         <li>
-          <a href="#">Events</a>
+          <a>Events</a>
         </li>
         <li>
-          <a href="#">Features</a>
+          <a>Features</a>
         </li>
         <li>
-          <a href="#">Demos</a>
+          <a>Demos</a>
         </li>
         <li>
-          <a href="#">Contact us</a>
+          <a>Contact us</a>
         </li>
       </ul>
     </nav>
