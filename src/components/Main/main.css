@@ -8,7 +8,6 @@
   height: 450px;
 }
 .video {
-  background-color: grey;
   flex: 1;
 }
 
@@ -24,6 +23,8 @@
   margin-top: 20px;
   padding: 30px;
   max-width: 50px;
+  color: rgb(97, 97, 248);
+  text-decoration: underline;
 }
 
 .description {

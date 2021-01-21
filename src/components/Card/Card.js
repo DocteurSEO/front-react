@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./card.css";
 
 export const Card = ({ title, text }) => {
@@ -12,4 +13,9 @@ export const Card = ({ title, text }) => {
 Card.defaultProps = {
   title: "",
   text: "",
+};
+
+Card.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string,
 };

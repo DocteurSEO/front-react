@@ -3,7 +3,7 @@
   flex-direction: row;
   width: 100%;
   height: 100%;
-  background-color: #f9f9f9;
+
   justify-content: space-around;
   align-items: center;
 }
@@ -13,9 +13,13 @@
   color: black;
 }
 
-.navbar-list > li:hover {
-  border-bottom: 1px solid orange;
+.active {
+  border-bottom: 2px solid orange;
 }
+.navbar-list > li {
+  height: 30px;
+}
+
 .navbar {
   grid-column: 4 / 12;
 }

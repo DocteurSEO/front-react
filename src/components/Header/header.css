@@ -2,5 +2,6 @@
   display: grid;
   width: 100%;
   grid-column: 2 / 12;
+  grid-row: 1/12;
   height: 50px;
 }
